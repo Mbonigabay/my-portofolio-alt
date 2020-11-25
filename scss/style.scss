@@ -1,0 +1,12 @@
+@import "config";
+@import "utilities";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @include set-background($light-color);
+  font-family: Ubuntu;
+  line-height: 1.5;
+}
